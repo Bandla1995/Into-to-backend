@@ -1,0 +1,29 @@
+{
+  "name": "into-to-backend",
+  "version": "1.0.0",
+  "description": "a backend intro project",
+  "homepage": "https://github.com/Bandla1995/Into-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Bandla1995/Into-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bandla1995/Into-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Benjamin",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
