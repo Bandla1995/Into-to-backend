@@ -114,4 +114,4 @@ out/
 
 .svelte-kit
 
-.env
+.env.env
